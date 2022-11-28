@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed5628a-3e0d-4f7c-b3d8-e205fbce01b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountOperationCommandImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/OperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/TransactionLedger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/TransactionLedgerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/utils/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/margo/bankaccount/BankAccountServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountOperationCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +30,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -42,9 +54,55 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.margo.bankaccount" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BankAccountServiceImplTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.margo.Main" />
+      <module name="bankaccount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.margo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankaccount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.margo.bankaccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.margo.bankaccount" />
+      <option name="MAIN_CLASS_NAME" value="fr.margo.bankaccount.BankAccountServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BankAccountServiceImplTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -2,6 +2,7 @@ package fr.margo.bankaccount;
 
 import java.math.BigDecimal;
 import java.util.LinkedList;
+import java.util.List;
 
 public interface BankAccountService {
 
@@ -18,9 +19,9 @@ public interface BankAccountService {
     void withdrawMoney(BankAccount account, BigDecimal amount);
 
     /**
-     *
-     * @return the list of operation
+     * @param account
+     * @return the list of operation in chronogical order for this account
      */
-    LinkedList<BankAccountOperation> getOperationHistory(BankAccount account);
+    List<BankAccountOperationCommand> getOperationHistory(BankAccount account);
 
 }

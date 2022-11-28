@@ -32,8 +32,13 @@ In order to check my operations
 As a bank client  
 I want to see the history (operation, date, amount, balance) of my operations  
 
-# Technologies & architecture
-Java  
+# Technologies 
+use Java  
+use SOLID
+use 2 design pattern
+
+
+# Notes
 
 SOLID    
 * single responsibility
@@ -42,5 +47,8 @@ SOLID
 * Interface segregation principle
 * Dependency inversion principle  
 
-2 design pattern    
+3 design pattern used :  
+* Factory
+* Singleton
+* Command
 
