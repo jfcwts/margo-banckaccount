@@ -47,7 +47,7 @@ SOLID
 * Interface segregation principle
 * Dependency inversion principle  
 
-3 design pattern used :  
+2 design pattern used :  
 * Factory
 * Command
 

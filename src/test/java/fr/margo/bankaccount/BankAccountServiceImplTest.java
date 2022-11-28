@@ -17,7 +17,7 @@ class BankAccountServiceImplTest {
 
     @BeforeEach
     public void init(){
-        service = new BankAccountServiceImpl();
+        service = BankAccountServiceFactory.create();
         account = BankAccountFactory.create();
         assertEquals(account.getBalance(), new BigDecimal("0.0"));
         account2 = BankAccountFactory.create();

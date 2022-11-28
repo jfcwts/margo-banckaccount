@@ -5,7 +5,12 @@ import java.util.List;
 
 public class BankAccountServiceImpl implements  BankAccountService{
 
-    TransactionLedger ledger = new TransactionLedgerImpl();
+    private final TransactionLedger ledger;
+
+    public BankAccountServiceImpl(TransactionLedger ledger){
+        this.ledger = ledger;
+    }
+
     @Override
     public void depositMoney(BankAccount account, BigDecimal amount) {
         if(amount.compareTo(BigDecimal.ZERO) < 0) {

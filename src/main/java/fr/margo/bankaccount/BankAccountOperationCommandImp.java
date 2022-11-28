@@ -23,6 +23,12 @@ public class BankAccountOperationCommandImp implements BankAccountOperationComma
         this.bankAccountReceiver.addAmount(amount);
         this.balanceAfterExecution = this.bankAccountReceiver.getBalance();
         this.executionDatetime = LocalDateTime.now();
+        System.out.println(String.format("Account (%s) : an operation (%s) for amount (%s) has been performed at (%s) leading to a balance of (%s) ",
+                this.bankAccountReceiver.getId(),
+                this.operation,
+                this.amount,
+                this.executionDatetime,
+                this.balanceAfterExecution));
     }
 
     @Override

@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed5628a-3e0d-4f7c-b3d8-e205fbce01b6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountOperationCommandImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountOperationCommandImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/TransactionLedgerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/TransactionLedgerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/margo/bankaccount/BankAccountServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/margo/bankaccount/BankAccountServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +43,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -53,7 +61,7 @@
       <recent name="fr.margo.bankaccount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BankAccountServiceImplTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.margo.Main" />
       <module name="bankaccount" />
@@ -84,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankAccountServiceImplTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BankAccountServiceImplTest" />
       </list>
     </recent_temporary>
   </component>
