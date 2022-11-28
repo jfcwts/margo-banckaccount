@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed5628a-3e0d-4f7c-b3d8-e205fbce01b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountOperationCommandImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/OperationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/TransactionLedger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/TransactionLedgerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/margo/utils/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/margo/bankaccount/BankAccountServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountOperationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/margo/bankaccount/BankAccountService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

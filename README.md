@@ -49,6 +49,5 @@ SOLID
 
 3 design pattern used :  
 * Factory
-* Singleton
 * Command
 
